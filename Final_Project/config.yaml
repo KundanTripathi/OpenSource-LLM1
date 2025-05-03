@@ -1,0 +1,21 @@
+model_name: "distilgpt2"
+local_path: "./distilgpt2_mod"
+prompt: "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly. \n\nHuman: Hello, who are you?\nAI:"
+
+model_params:
+  device_map: "cpu" #"auto" for GPU
+  quantization_config: Null #for quantization in CPU| load_in_4bit: True | bnb_4bit_quant_type: "nf4" | Normal float 4-bit | bnb_4bit_compute_dtype: torch.float16| Compute in float16 for speed | bnb_4bit_use_double_quant: True
+    
+
+output_params:
+  temperature: 0.7
+  max_length: 150
+  top_k: 50
+  num_return_sequences: 1
+  repetition_penalty: 1.0
+  do_sample: true
+  early_stopping: false
+  use_cache: true
+  temperature: 1.0
+  
+
