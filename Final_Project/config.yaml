@@ -12,7 +12,6 @@ output_params:
   max_length: 150
   top_k: 50
   num_return_sequences: 1
-  repetition_penalty: 1.0
   do_sample: true
   early_stopping: false
   use_cache: true
