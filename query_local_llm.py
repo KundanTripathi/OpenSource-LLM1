@@ -14,7 +14,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # Prepare input prompt
-prompt = "Share shakespear's most famous quote"
+prompt = "Share Shakespear's most famous quote"
 inputs = tokenizer(prompt, return_tensors="pt").to("cpu")
 
 # Perform inference
