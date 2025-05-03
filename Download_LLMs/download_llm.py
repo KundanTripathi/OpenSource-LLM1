@@ -4,14 +4,14 @@ import os
 from dotenv import load_dotenv
 from huggingface_hub import login
 
-
+# Load environment variables from .env file
 load_dotenv()
 
 hf_token = os.getenv("HF_TOKEN")
 
 if hf_token is None:
     raise ValueError("HF_TOKEN environment variable not set. Please set it to your Hugging Face token.")
-# Load environment variables from .env file
+
 
 
 login(token=hf_token)
