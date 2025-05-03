@@ -25,7 +25,7 @@
 Answer
 The capital of India is New Delhi.
 
-![alt text](image-2.png)
+![alt text](image-1.png)
 
 ### Phi3-Mini-4k-Instruct-Quantized: On CPU
 -- Query: What is capital of India?
@@ -34,9 +34,9 @@ The capital of India is New Delhi.
 Answer
 The capital of India is New Delhi.
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
-### LLAMA2-7B-Instruct
+### LLAMA2-7B-Instruct: On GPU
 --Prompt: What is the capital of India?
 --Response: What is the capital of India?
  -The capital of India is New Delhi.
